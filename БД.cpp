@@ -130,8 +130,8 @@ int main()
         }
     }
     // Создание БД в виде txt файла
-    ofstream fout;
-    fout.open("C:/Users/Красков/Desktop/Никита/Progects/Химия/ReadDataSet/DataSet.txt");
+    ifstream fout;
+    fout.open("DataSet.txt");
     // Проверка
     if (!fout.is_open())
     {
